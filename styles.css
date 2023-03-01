@@ -1,0 +1,43 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+div {
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: rgb(68, 0, 255);}
+}
+.imgbox {
+  display: grid;
+  height: 100%;
+}
+h1:hover {
+background-color: black;
+}
+.center-fit {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
+h1 {
+font-family: "dogma-extra-outline", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: black;
+position: relative;
+top: 30%;
+}
+
+/* position adosolute relative, fixed */
+
+p {
+color: black;
+font-family: "dogma-bold", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
