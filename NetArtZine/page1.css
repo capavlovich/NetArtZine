@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(#e66465, #9198e5);
+  }
+  body {
+    background-image: url(photos/fern_original.gif);
+  }
+a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 5em;
+   padding-right: 30%;
+    padding-top: 0%;
+    background: none;
+}
